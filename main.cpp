@@ -17,7 +17,7 @@ int main() {
     diag_x = x_a + x_b + x_c;
     diag_y = y_a + y_b + y_c;
     diag_z = z_a + z_b + z_c;
-    // вычисляем длинну диагонали
+    // вычисляем длину диагонали
     diag_p = pow((pow(diag_x, 2) + pow(diag_y,2) + pow(diag_z,2)), 0.5);
     cout <<"Diagonal = "<< diag_p << endl;
     return 0;
